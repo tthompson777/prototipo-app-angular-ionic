@@ -1,0 +1,65 @@
+// Fonts
+// Google Font - Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$font-roboto: 'Roboto', sans-serif;
+$color-header: #00995D;
+
+.uppercased {
+    text-transform: uppercase;
+}
+
+.ion-header {
+    height: 60px;
+    color: #fff;
+}
+.color-header {
+    background: $color-header;
+    display: flex;
+    width: 100%;
+}
+
+.icon-header-left {
+    i {
+        margin-left: 15px;
+        font-size: 2em;
+    }
+}
+
+.icon-header-right {
+    i {
+        margin-right: 15px;
+        font-size: 1.5em;
+    }
+}
+
+.ion-tabs {
+  top: 57px;
+}
+
+.segment-bg {
+  background: #006B3E;
+  height: 48px;
+  justify-content: end;
+}
+
+.segment-title {
+  color: #00BB6C;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+}
+
+.segment-title-active {
+  color: #fff;
+  font-weight: 700;
+}
+
+.tab-button {
+  background: transparent;
+  justify-content: flex-end;
+}
+
+.tab-button-active {
+  border-bottom: 5px solid #BED700;
+}
